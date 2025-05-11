@@ -1,0 +1,80 @@
+--------------------------------------------
+votefun is
+<function weighted_vote at 0x74443d1305e0>
+ensemble test accuracy: 0.976415 
+ensemble test accuracy: 0.976415
+learner 0 (model_file = ./final models/t2_breast_VGGAdam-epoch10.keras): 0.843422
+Acc: 0.84    Precision: 0.85    Recall: 0.84    F1 score: 0.85
+
+learner 1 (model_file = ./final models/t3_breast_IRNAdam_NoPreProcess-epoch12.keras): 0.966326
+Acc: 0.97    Precision: 0.97    Recall: 0.97    F1 score: 0.97
+
+learner 2 (model_file = ./final models/t3_breast_Xception_NoPreProcess-lrreduceP4-epoch02.keras): 0.631027
+Acc: 0.63    Precision: 0.66    Recall: 0.63    F1 score: 0.64
+
+learner 3 (model_file = ./final models/t3_breast_ResNet50_NoPreProcess-epoch15.keras): 0.958595
+Acc: 0.96    Precision: 0.96    Recall: 0.96    F1 score: 0.96
+
+learner 4 (model_file = ./final models/t2_breast_vit_NoPreProcess_hdp0.2_adp0.2_lr1e-05-epoch4.pt): 0.969733
+Acc: 0.97    Precision: 0.97    Recall: 0.97    F1 score: 0.97
+
+votefun is
+<function majority_vote at 0x74443d1309d0>
+ensemble test accuracy: 0.951258 
+ensemble test accuracy: 0.951258
+learner 0 (model_file = ./final models/t2_breast_VGGAdam-epoch10.keras): 0.843422
+Acc: 0.84    Precision: 0.85    Recall: 0.84    F1 score: 0.85
+
+learner 1 (model_file = ./final models/t3_breast_IRNAdam_NoPreProcess-epoch12.keras): 0.966326
+Acc: 0.97    Precision: 0.97    Recall: 0.97    F1 score: 0.97
+
+learner 2 (model_file = ./final models/t3_breast_Xception_NoPreProcess-lrreduceP4-epoch02.keras): 0.631027
+Acc: 0.63    Precision: 0.66    Recall: 0.63    F1 score: 0.64
+
+learner 3 (model_file = ./final models/t3_breast_ResNet50_NoPreProcess-epoch15.keras): 0.958595
+Acc: 0.96    Precision: 0.96    Recall: 0.96    F1 score: 0.96
+
+learner 4 (model_file = ./final models/t2_breast_vit_NoPreProcess_hdp0.2_adp0.2_lr1e-05-epoch4.pt): 0.969733
+Acc: 0.97    Precision: 0.97    Recall: 0.97    F1 score: 0.97
+
+--------------------------------------------
+votefun is
+<function weighted_vote at 0x7203dd139fc0>
+ensemble test accuracy: 0.976415 
+Acc: 0.976    Precision: 0.976    Recall: 0.976    F1 score: 0.976
+
+learner 0 (model_file = ./final models/t2_breast_VGGAdam-epoch10.keras): 0.843422
+Acc: 0.843    Precision: 0.848    Recall: 0.843    F1 score: 0.845
+
+learner 1 (model_file = ./final models/t3_breast_IRNAdam_NoPreProcess-epoch12.keras): 0.966326
+Acc: 0.966    Precision: 0.966    Recall: 0.966    F1 score: 0.966
+
+learner 2 (model_file = ./final models/t3_breast_Xception_NoPreProcess-lrreduceP4-epoch02.keras): 0.631027
+Acc: 0.631    Precision: 0.658    Recall: 0.631    F1 score: 0.640
+
+learner 3 (model_file = ./final models/t3_breast_ResNet50_NoPreProcess-epoch15.keras): 0.958595
+Acc: 0.959    Precision: 0.959    Recall: 0.959    F1 score: 0.959
+
+learner 4 (model_file = ./final models/t2_breast_vit_NoPreProcess_hdp0.2_adp0.2_lr1e-05-epoch4.pt): 0.969733
+Acc: 0.970    Precision: 0.970    Recall: 0.970    F1 score: 0.970
+
+votefun is
+<function majority_vote at 0x7203dd13a200>
+ensemble test accuracy: 0.951258 
+Acc: 0.951    Precision: 0.947    Recall: 0.951   F1 score: 0.953
+
+learner 0 (model_file = ./final models/t2_breast_VGGAdam-epoch10.keras): 0.843422
+Acc: 0.843    Precision: 0.848    Recall: 0.843    F1 score: 0.845
+
+learner 1 (model_file = ./final models/t3_breast_IRNAdam_NoPreProcess-epoch12.keras): 0.966326
+Acc: 0.966    Precision: 0.966    Recall: 0.966    F1 score: 0.966
+
+learner 2 (model_file = ./final models/t3_breast_Xception_NoPreProcess-lrreduceP4-epoch02.keras): 0.631027
+Acc: 0.631    Precision: 0.658    Recall: 0.631    F1 score: 0.640
+
+learner 3 (model_file = ./final models/t3_breast_ResNet50_NoPreProcess-epoch15.keras): 0.958595
+Acc: 0.959    Precision: 0.959    Recall: 0.959    F1 score: 0.959
+
+learner 4 (model_file = ./final models/t2_breast_vit_NoPreProcess_hdp0.2_adp0.2_lr1e-05-epoch4.pt): 0.969733
+Acc: 0.970    Precision: 0.970    Recall: 0.970    F1 score: 0.970
+
